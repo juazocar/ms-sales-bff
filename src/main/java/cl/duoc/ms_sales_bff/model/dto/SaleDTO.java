@@ -18,6 +18,6 @@ public class SaleDTO {
 
     private String           sessionId;
     private LocalDateTime    date;
-    private Double           amount;
+    private Integer           amount;
     private List<ProductDTO> products;
 }

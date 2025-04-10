@@ -12,5 +12,6 @@ import lombok.ToString;
 @Setter
 @ToString
 public class WebPayTransactionResponseDTO {
-
+    private String token;
+    private String url;
 }
